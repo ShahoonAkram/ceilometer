@@ -52,3 +52,8 @@ class MemorySwapTotalPollster(_Base):
 
 class MemorySwapAvailPollster(_Base):
     IDENTIFIER = 'memory.swap.avail'
+    
+    
+class test(_Base):
+    IDENTIFIER = 'test.total'
+    
